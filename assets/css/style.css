@@ -2281,3 +2281,6 @@ display: inline-block;
   position: relative;
   bottom: 175px;
 }
+.img-circle{
+  border: 5px solid #fff;
+}
