@@ -2250,12 +2250,13 @@ display: inline-block;
   margin: 0 2px 5px;
   transform: translate3d(0px, -50%, 0px) scale(0.1);
   transform-origin: 50% 50% 0;
-  transition: all 250ms ease-out 0s;
+  transition: all 2ms ease-out 0s;
   width: 20px;
 }
 .testimonials{
-  padding-top: 150px;
+  padding-top: 80px;
   background-color: #000;
+  height: 750px;
 }
 
 
@@ -2264,4 +2265,19 @@ display: inline-block;
   font-size: 60px;
   font-weight: 700;
   color: #fff;
+}
+
+.meet-makers-bottomHeading{
+  padding-top: 20px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  width: 85%;
+  margin: 10px;
+}
+
+
+  
+#meet-makers{
+  position: relative;
+  bottom: 175px;
 }
