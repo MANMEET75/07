@@ -742,10 +742,117 @@ h6 {
   #top-subheading{
     padding-bottom: 10px;
   }
+}
 
+@media only screen and (max-width: 375px) {
+ 
+  .hero-img{
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    right: 90px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 414px) {
+ 
+  .hero-img{
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    right: 90px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 820px) {
+ 
+  .hero-img{
+    width: 87%;
+    position: relative;
+    bottom: 30px;
+    right: 125px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 912px) {
+ 
+  .hero-img{
+    width: 87%;
+    position: relative;
+    bottom: 30px;
+    right: 125px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
 
+@media only screen and (max-width: 540px) {
+ 
+  .hero-img{
+    width: 87%;
+    position: relative;
+    bottom: 30px;
+    right: 100px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 280px) {
+ 
+  .hero-img{
+    width: 87%;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 412px) {
+ 
+  .hero-img{
+    width: 87%;
+    position: relative;
+    bottom: 30px;
+    right: 75px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+ 
+  .hero-img{
+    width: 45%;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
+}
 
-  
+@media only screen and (max-width: 390px) {
+ 
+  .hero-img{
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    padding-right: 190px;
+  }
+  #top-subheading{
+    padding-bottom: 10px;
+  }
 }
 
 #ourJourneySubHeading{
@@ -1759,8 +1866,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1769,7 +1876,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1786,14 +1893,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #000;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #000;
 }
 
 .contact .info .email p {
@@ -1807,7 +1914,7 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1820,21 +1927,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #000;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1911,7 +2018,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: #000;
 }
 
 .contact .php-email-form input {
@@ -1923,7 +2030,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #000;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1932,7 +2039,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: #000;
 }
 
 @keyframes animate-loading {
@@ -1993,6 +2100,7 @@ section {
 #footer {
   font-size: 14px;
   background: #000;
+  color: #000;
 }
 
 #footer .footer-newsletter {
@@ -2009,7 +2117,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 
 #footer .footer-newsletter form {
@@ -2064,7 +2172,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 
 #footer .footer-top .footer-contact p {
@@ -2078,7 +2186,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #000;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2423,4 +2531,9 @@ display: inline-block;
 
 .bi-arrow-up-short{
   background-color: #000;
+}
+
+#send-message-btn{
+  background-color: #000;
+  color: #fff;
 }
