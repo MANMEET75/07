@@ -752,7 +752,8 @@ h6 {
 
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
  
   .hero-img{
@@ -768,7 +769,8 @@ h6 {
 @media only screen and (max-width: 820px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
   
   #hero{
@@ -787,7 +789,8 @@ h6 {
 @media only screen and (max-width: 912px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
   #hero{
     max-height: 550px;
@@ -806,7 +809,8 @@ h6 {
 @media only screen and (max-width: 540px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
   #hero{
     max-height: 850px;
@@ -824,7 +828,8 @@ h6 {
 @media only screen and (max-width: 412px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
 }
 
@@ -838,7 +843,8 @@ h6 {
 @media only screen and (max-width: 338px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
 
   #hero{
@@ -871,7 +877,8 @@ h6 {
 @media only screen and (max-width: 600px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
 
   #hero{
@@ -905,7 +912,8 @@ h6 {
 @media only screen and (max-width: 320px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
 
   #hero{
@@ -935,7 +943,8 @@ h6 {
 @media only screen and (max-width: 1024px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
+
   }
 
   #hero{
@@ -963,7 +972,7 @@ h6 {
 @media only screen and (max-width: 378px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
   }
 
   #hero{
@@ -997,7 +1006,7 @@ h6 {
 @media only screen and (max-width: 320px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
   }
 
   #hero{
@@ -1027,7 +1036,7 @@ h6 {
 @media only screen and (max-width: 375px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
   }
 
   #hero{
@@ -1057,7 +1066,7 @@ h6 {
 @media only screen and (max-width: 414px) {
   #top-items{
     position: relative;
-    right:80px;
+    right:75px;
   }
 
   #hero{
