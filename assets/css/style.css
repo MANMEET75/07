@@ -742,21 +742,15 @@ h6 {
   #top-subheading{
     padding-bottom: 10px;
   }
+ 
 }
 
 @media only screen and (max-width: 375px) {
- 
-  .hero-img{
-    width: 100%;
+
+  #top-items{
     position: relative;
-    bottom: 30px;
-    right: 90px;
+    right:51px;
   }
-  #top-subheading{
-    padding-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 414px) {
  
   .hero-img{
     width: 100%;
@@ -769,6 +763,10 @@ h6 {
   }
 }
 @media only screen and (max-width: 820px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
   
   #hero{
     max-height: 550px;
@@ -784,6 +782,10 @@ h6 {
   }
 }
 @media only screen and (max-width: 912px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
   #hero{
     max-height: 550px;
   }
@@ -799,6 +801,10 @@ h6 {
 }
 
 @media only screen and (max-width: 540px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
   #hero{
     max-height: 850px;
   }
@@ -812,25 +818,11 @@ h6 {
     padding-bottom: 10px;
   }
 }
-
 @media only screen and (max-width: 412px) {
-  .btn-get-started{
-    width: 250px;
+  #top-items{
     position: relative;
-    right: 40px;
+    right:51px;
   }
-  #hero{
-    max-height: 430px;
-  }
-  .hero-img{
-    /* width: 100%; */
-    height: 500px;
-    width: 500px;
-    position: relative;
-    top: 65px;
-  }
- 
-  
 }
 
 
@@ -840,6 +832,10 @@ h6 {
 
 
 @media only screen and (max-width: 338px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 480px;
@@ -869,6 +865,10 @@ h6 {
   }
 }
 @media only screen and (max-width: 600px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 520px;
@@ -899,6 +899,10 @@ h6 {
 }
 
 @media only screen and (max-width: 320px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 520px;
@@ -925,6 +929,10 @@ h6 {
  
 }
 @media only screen and (max-width: 1024px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 1000px;
@@ -949,6 +957,10 @@ h6 {
  
 }
 @media only screen and (max-width: 378px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 520px;
@@ -974,33 +986,12 @@ h6 {
   }
  
 }
-@media only screen and (max-width: 412px) {
 
-  #hero{
-    max-height: 600px;
-  }
-  .hero-img{
-    /* width: 100%; */
-    height: 500px;
-    width: 500px;
-    position: relative;
-    top: 25px;
-  }
-  #main-image{
-    position: relative;
-    right:140px;
-  }
-  #explore-btn{
-    position: relative;
-    right:150px;
-  }
-  #top-subheading{
-    position: relative;
-    right: 160px;
-  }
- 
-}
 @media only screen and (max-width: 320px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 600px;
@@ -1027,6 +1018,10 @@ h6 {
  
 }
 @media only screen and (max-width: 375px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 600px;
@@ -1053,6 +1048,10 @@ h6 {
  
 }
 @media only screen and (max-width: 414px) {
+  #top-items{
+    position: relative;
+    right:51px;
+  }
 
   #hero{
     max-height: 650px;
