@@ -856,14 +856,31 @@ h6 {
 @media only screen and (max-width: 338px) {
 
   #hero{
-    height: 1000px;
+    max-height: 480px;
   }
   .hero-img{
-    width: 100%;
+    /* width: 100%; */
+    height: 500px;
+    width: 500px;
     position: relative;
-    bottom: 30px;
-    padding-right: 190px;
+    top: 25px;
   }
+  #main-image{
+    position: relative;
+    right: 80px;
+  }
+  #explore-btn{
+    position: relative;
+    right:82px;
+  }
+  #top-subheading{
+    width: 500px;
+    position: relative;
+    right: 185px;
+  }
+
+
+
   #top-subheading{
     padding-bottom: 10px;
   }
