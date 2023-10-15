@@ -972,7 +972,7 @@ h6 {
 @media only screen and (max-width: 378px) {
   #top-items{
     position: relative;
-    right:75px;
+    right: 72px;
   }
 
   #hero{
@@ -1006,7 +1006,7 @@ h6 {
 @media only screen and (max-width: 320px) {
   #top-items{
     position: relative;
-    right:75px;
+    right: 72px;
   }
 
   #hero{
@@ -1036,7 +1036,7 @@ h6 {
 @media only screen and (max-width: 375px) {
   #top-items{
     position: relative;
-    right:75px;
+    right: 72px;
   }
 
   #hero{
@@ -1065,9 +1065,9 @@ h6 {
 }
 @media only screen and (max-width: 414px) {
   #top-items{
-    position: relative;
-    right:75px;
-  }
+  position: relative;
+  right: 72px;
+}
 
   #hero{
     max-height: 650px;
