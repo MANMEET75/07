@@ -137,7 +137,7 @@ h6 {
   padding-top: 150px;
   background-color: #000;
   height: 550px;
-  background-image: url(../img/07BG.png);
+  background-image: url(../img/07BG1.png);
   background-repeat: no-repeat;
   background-size:85% 160%;
   background-origin: content-box;
@@ -2773,9 +2773,7 @@ display: inline-block;
 .card-text{
   margin: 15px;
 }
-.ClientVoiceBody{
-  background-color: #626262;
-}
+
 
 #client-voice-text{
   color: #fff;;
@@ -2792,4 +2790,20 @@ display: inline-block;
 #send-message-btn{
   background-color: #000;
   color: #fff;
+}
+
+#work-speaks{
+  padding-top: 180px;
+}
+.testimonials{
+  padding-top: 150px;
+}
+#clients-voice{
+  padding-top: 180px;
+}
+#contact{
+  padding-top: 180px;
+}
+#footer{
+  padding-top: 180px;
 }
