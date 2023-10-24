@@ -2777,7 +2777,15 @@ display: inline-block;
 
 #client-voice-text{
   color: #fff;;
+  font-weight: 700;
+  font-size: 19px;
+  text-shadow: 2px 2px 2px #000000;
 }
+/* style="background-color: #000;" */
+
+
+
+
 
 #contact{
   background-color: #000;
@@ -2807,3 +2815,20 @@ display: inline-block;
 #footer{
   padding-top: 180px;
 }
+
+/* .bxl-twitter:hover{
+  background-color: #000;
+}
+.bxl-facebook:hover{
+  background-color: #000;
+}
+.bxl-instagram:hover{
+  background-color: #000;
+}
+.bxl-skype:hover{
+  background-color: #000;
+}
+.bxl-linkedin:hover{
+  background-color: #000;
+}
+ */
