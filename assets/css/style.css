@@ -2483,13 +2483,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2502,7 +2502,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #000;
+  font-weight: 800;
   color: #fff;
   text-decoration: none;
 }
