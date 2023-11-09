@@ -316,4 +316,47 @@ jQuery(document).ready(function($) {
   })(jQuery);
 })();
 
+function closeForm() {
+  $('.form-popup-bg').removeClass('is-visible');
+}
 
+$(document).ready(function($) {
+  
+  /* Contact Form Interactions */
+  $('#btnOpenForm').on('click', function(event) {
+    event.preventDefault();
+
+    $('.form-popup-bg').addClass('is-visible');
+  });
+  
+    //close popup when clicking x or off popup
+  $('.form-popup-bg').on('click', function(event) {
+    if ($(event.target).is('.form-popup-bg') || $(event.target).is('#btnCloseForm')) {
+      event.preventDefault();
+      $(this).removeClass('is-visible');
+    }
+  });
+  
+  
+  
+  })
+
+
+  function sendEmail() {
+    var name = document.getElementById("name").value;
+    var company = document.getElementById("company").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+
+    var subject = "Contact Form Submission";
+    var body = "Name: " + name + "\n" +
+               "Company: " + company + "\n" +
+               "Email: " + email + "\n" +
+               "Phone: " + phone;
+
+    var mailtoLink = "mailto:samanmeet85@gmail.com" +
+                    "?subject=" + encodeURIComponent(subject) +
+                    "&body=" + encodeURIComponent(body);
+
+    window.location.href = mailtoLink;
+  }

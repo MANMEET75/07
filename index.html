@@ -52,7 +52,7 @@
           <li><a class="nav-link scrollto active" href="#hero">HOME</a>
             <div class="underline"></div>
           </li>
-          <li><a class="nav-link scrollto" href="#testimonials">ABOUT</a>
+          <li><a class="nav-link scrollto" href="about.html">ABOUT</a>
             <div class="underline"></div>
           </li>
           <li><a class="nav-link scrollto" href="#clients-voice">SERVICES</a>
@@ -67,8 +67,33 @@
           <li><a class="nav-link scrollto" href="#contact">CONTACT US</a>
             <div class="underline"></div>
           </li>
-          <li><a class="getstarted scrollto" href="#quote">REQUEST A QUOTE</a>
-            <div class="underline"></div>
+          <li><a class="getstarted scrollto" href="#quote" id="btnOpenForm">REQUEST A QUOTE</a>
+            <div class="form-popup-bg">
+              <div class="form-container">
+                <button id="btnCloseForm" class="close-button">X</button>
+                <h1>Contact Us</h1>
+                <p>For more information, please complete this form.</p>
+                <form id="contactForm">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="company">Occupation Name</label>
+                    <input class="form-control" type="text" id="company" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Organization Name</label>
+                    <input class="form-control" type="text" id="email" />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Query</label>
+                    <input class="form-control" type="text" id="phone" />
+                  </div>
+                  <button class="btn btn-light" type="button" onclick="sendEmail()">Submit</button>
+                </form>
+              </div>
+            </div>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -89,7 +114,8 @@
             <div id="top-items">
               <h1 id="top-subheading">Elevate <br> Your Brand</h1>
               <img src="assets/img/landingPageLogo.png" id="main-image" class="img-fluid animated" alt="">
-              <a href="#about" class="btn-get-started scrollto mt-3" id="explore-btn"><strong>Explore Our Services</strong></a>
+              <a href="#about" class="btn-get-started scrollto mt-3" id="explore-btn"><strong>Explore Our
+                  Services</strong></a>
             </div>
             <br>
             <br>
@@ -112,27 +138,27 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/chatbotlogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" width="70">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/AIlogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" width="70">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/datasciencelogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" width="70">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/graphicdesignlogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" width="70">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/videoeditinglogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" width="70">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/fslogo.png" class="img-fluid" alt="" width="70">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" width="70">
           </div>
 
         </div>
@@ -141,44 +167,9 @@
     </section>
     <div style="height: 100px;background-color: #000;">
 
-    </div>  
-    
+    </div>
 
-    <!-- End Cliens Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <!-- <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About Us</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
@@ -204,129 +195,197 @@
 
         </div>
     </section><!-- End Why Us Section -->
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- <section id="clients" class="clients section-bg">
-      <div class="container">
 
-        <div class="row" data-aos="zoom-in">
+    <!-- <div class="we-are-block">
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+      <div id="about-us-section">
+
+        <div class="about-us-image">
+
+          <img src="https://img.freepik.com/free-photo/business-people-partnership-support-team-urban-scene-concept_53876-144834.jpg?w=1380&t=st=1699550036~exp=1699550636~hmac=f4948e6b119da1472fc17c62d18a3027eddc84e7183e226cc9dd26bb49a715df" width="700" height="458" alt="Lobby Image">
+
+        </div>
+
+        <div class="about-us-info">
+          <div style="display: inline;width: 60%;">
+            <h2>WHO WE ARE?</h2>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.</p>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
+          <a href="#" title="About Us Button" id="about-transition">ABOUT US</a>
 
         </div>
 
       </div>
-    </section> -->
+
+      <div id="history-section">
+
+        <div class="history-image">
+
+          <img src="https://img.freepik.com/free-photo/close-up-multiethnic-team-solving-blank-puzzle-game_1163-3929.jpg?w=1380&t=st=1699550112~exp=1699550712~hmac=c66c6b7ab9df2f2f708de89859b0bc92c2bf5f59f31b04b6e066dd798866506a" width="950" height="471" alt="Building Pic">
+
+        </div>
+
+        <div class="history-info">
+
+          <h2>WHAT WE DO?</h2>
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.</p>
+
+          <a href="#" title="History Button" id="about-transition">HISTORY</a>
+
+        </div>
+
+      </div>
+
+    </div> -->
+
+
+
+
+
+
 
     <!-- TESTIMONIALS -->
-    <section class="testimonials" id="testimonials">
-      <h1 class="common-headings">Meet The Makers</h1>
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div id="customers-testimonials" class="owl-carousel">
-
-              <!--TESTIMONIAL 1 -->
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/s1.png" alt="" width="220">
-                <!-- <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                    synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> -->
-                <!-- </div> -->
-                <div class="testimonial-name">Arshmit Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CEO & Founder</p>
-              </div>
-              <!--END OF TESTIMONIAL 1 -->
-              <!--TESTIMONIAL 2 -->
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/ms.jpg" alt="">
-                <!-- <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                    synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> -->
-                <!-- </div> -->
-                <div class="testimonial-name">Manmeet Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CTO</p>
-              </div>
-              <!--END OF TESTIMONIAL 2 -->
-              <!--TESTIMONIAL 3 -->
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/s3.png" alt="">
-
-                <div class="testimonial-name">Arshmit Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CEO & Founder</p>
-              </div>
-              <!--END OF TESTIMONIAL 3 -->
-              <!--TESTIMONIAL 4 -->
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/ms.jpg" alt="">
-                <!-- <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                    synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> -->
-                <!-- </div> -->
-                <div class="testimonial-name">Manmeet Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CTO</p>
-              </div>
-              <!--END OF TESTIMONIAL 4 -->
-              <!--TESTIMONIAL 5 -->
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/s2.png" alt="">
-                <!-- <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                    synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> -->
-                <!-- </div> -->
-                <div class="testimonial-name">Arshmit Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CEO & Founder</p>
-              </div>
-              <div class="item">
-                <!-- <div class="shadow-effect"> -->
-                <img class="img-circle" src="assets/img/s2.png" alt="">
-                <!-- <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely
-                    synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> -->
-                <!-- </div> -->
-                <div class="testimonial-name">Arshmit Singh</div>
-                <br>
-                <p class="testimonial-name-subheading">CEO & Founder</p>
-              </div>
-              <!--END OF TESTIMONIAL 5 -->
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="meet-makers-bottomtext" >
-      <p>Our team comprises digital enthusiasts, creative thinkers, and strategic wizards. <br>Together, we bring your brand's digital dreams to life.</p>
-    </div>
+    
     <!-- END OF TESTIMONIALS -->
 
+    <!-- starting of services over here -->
+    <!-- <section class="container_services" style="background-color: #000;">
+      <h1 class="common-headings">Services</h1>
+      <section class="card__container">
+        <div class="card__bx" style="--clr: #89ec5b">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <div class="card__content">
+              <h3>Designing</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #eb5ae5">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="card__content">
+              <h3>Develoment</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #5b98eb">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-brands fa-searchengin"></i>
+            </div>
+            <div class="card__content">
+              <h3>SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="card__container">
+        <div class="card__bx" style="--clr: #89ec5b">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <div class="card__content">
+              <h3>Designing</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #eb5ae5">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="card__content">
+              <h3>Develoment</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #5b98eb">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-brands fa-searchengin"></i>
+            </div>
+            <div class="card__content">
+              <h3>SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="card__container">
+        <div class="card__bx" style="--clr: #89ec5b">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <div class="card__content">
+              <h3>Designing</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #eb5ae5">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="card__content">
+              <h3>Develoment</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__bx" style="--clr: #5b98eb">
+          <div class="card__data">
+            <div class="card__icon">
+              <i class="fa-brands fa-searchengin"></i>
+            </div>
+            <div class="card__content">
+              <h3>SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </section> -->
+    <!-- starting of services over here -->
 
 
 
@@ -346,10 +405,11 @@
         <div class="gtco-testimonials">
           <div class="owl-carousel owl-carousel1 owl-theme">
             <div>
-              <div class="card text-center" id="work-container" style="background-image: url(assets/img/r1.png);background-size: cover;background-color: #fff9d4;height: 250px;">
+              <div class="card text-center" id="work-container"
+                style="background-image: url(assets/img/r1.png);background-size: cover;background-color: #fff9d4;height: 250px;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""> -->
                 <div class="card-body" id="work-container-inside">
-                <!-- <div class="card-body"> -->
+                  <!-- <div class="card-body"> -->
                   <!-- <h5>Ronne Galle <br />
                     <span> Project Manager </span></h5>
                   <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
@@ -358,7 +418,8 @@
               </div>
             </div>
             <div>
-              <div class="card text-center" id="work-container" style="background-image: url(assets/img/r4.png);background-size: cover;background-color: #fff9d4;height: 250px;">
+              <div class="card text-center" id="work-container"
+                style="background-image: url(assets/img/r4.png);background-size: cover;background-color: #fff9d4;height: 250px;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt=""> -->
                 <div class="card-body" id="work-container-inside">
                   <!-- <h5>Missy Limana<br />
@@ -369,7 +430,8 @@
               </div>
             </div>
             <div>
-              <div class="card text-center" id="work-container" style="background-image: url(assets/img/r5.png);background-size: cover;background-color: #fff9d4;height: 250px;">
+              <div class="card text-center" id="work-container"
+                style="background-image: url(assets/img/r5.png);background-size: cover;background-color: #fff9d4;height: 250px;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt=""> -->
                 <div class="card-body" id="work-container-inside">
                   <!-- <h5>Martha Brown<br />
@@ -380,7 +442,8 @@
               </div>
             </div>
             <div>
-              <div class="card text-center" id="work-container" style="background-image: url(assets/img/r2.png);background-size: cover;background-color: #fff9d4;height: 250px;">
+              <div class="card text-center" id="work-container"
+                style="background-image: url(assets/img/r2.png);background-size: cover;background-color: #fff9d4;height: 250px;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt=""> -->
                 <div class="card-body" id="work-container-inside">
                   <!-- <h5>Hanna Lisem<br />
@@ -395,12 +458,12 @@
         <div class="meet-makers-bottomtext">
           <p>Explore some of our recent projects below and see the transformation for yourself.</p>
         </div>
-    
-     
+
+
 
       </div>
 
-      
+
     </section><!-- End Services Section -->
 
 
@@ -412,7 +475,7 @@
         <h1 class="common-headings">Client Voices</h1>
 
         <div class="gtco-testimonials">
-          <div class="owl-carousel owl-carousel1 owl-theme" >
+          <div class="owl-carousel owl-carousel1 owl-theme">
             <div>
               <div class="card text-center" style="background-color: #a5a5a5;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""> -->
@@ -430,7 +493,7 @@
               </div>
             </div>
             <div>
-        
+
               <div class="card text-center" style="background-color: #a5a5a5;">
                 <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt=""> -->
                 <div class="card-body">
@@ -446,400 +509,13 @@
         <div class="meet-makers-bottomtext">
           <p>Don't just take our word for it. Hear what our clients have to say about working with us.</p>
         </div>
-    
-     
+
+
 
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <!-- <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
     
-    
-    <!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!-- <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    
-    
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    
-    
-    <!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    
-    <!-- End Pricing Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-                class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                  donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
-                  ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-                class="collapsed">Dolor sit amet consectetur adipiscing elit? <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
-                  integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-                  Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi
-                  quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
-                class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc
-                  vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
-                  gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
-                class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
-                dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
-                  nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis
-                  tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section> -->
-    
-    <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -868,11 +544,11 @@
                 <p>Contact@zeroseven.co.in</p>
               </div>
 
-              <div class="phone">
+              <!-- <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
                 <p>+91 XX24159782</p>
-              </div>
+              </div> -->
 
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58738.77237548846!2d77.2142872!3d28.6174162!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a830b218fb:0x5e89fbc60b9235c1!2sNew+Delhi!5e0!3m2!1sen!2sin!4v1539943755621"
@@ -920,7 +596,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-   
+
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -929,7 +605,7 @@
             <h3>07</h3>
             <p>
               New Delhi, India <br>
-              <strong>Phone:</strong>+91 XX24159782<br>
+              <!-- <strong>Phone:</strong>+91 XX24159782<br> -->
               <strong>Email:</strong>Contact@zeroseven.co.in<br>
             </p>
           </div>
@@ -962,11 +638,16 @@
             <h4>Our Social Networks</h4>
             <p>Connect with us</p>
             <div class="social-links mt-3">
-              <a href="https://api.whatsapp.com/message/PYUUTDHHRVKPF1?autoload=1&app_absent=0" class="whatsapp" style="background-color: #128c7e;"><i class="bx bxl-whatsapp"></i></a>
-              <a href="https://www.facebook.com/zerosevenfb?mibextid=LQQJ4d" class="facebook" style="background-color: #3b5998;" ><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/zerosevenig/" class="instagram" style="background-color: rgb(241, 140, 219);" ><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/zerosevens/" class="linkedin" style="background-color: #0072b1;"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://www.threads.net/@zerosevenig" style="background-color: #000;"><i class="fa-brands fa-threads"></i></i></a>
+              <a href="https://api.whatsapp.com/message/PYUUTDHHRVKPF1?autoload=1&app_absent=0" class="whatsapp"
+                style="background-color: #128c7e;"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://www.facebook.com/zerosevenfb?mibextid=LQQJ4d" class="facebook"
+                style="background-color: #3b5998;"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/zerosevenig/" class="instagram"
+                style="background-color: rgb(241, 140, 219);"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/zerosevens/" class="linkedin"
+                style="background-color: #0072b1;"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.threads.net/@zerosevenig" style="background-color: #000;"><i
+                  class="fa-brands fa-threads"></i></i></a>
             </div>
           </div>
 
@@ -976,7 +657,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; 2023  <strong><span>07</span></strong>. Agency.All Rights Reserved
+        &copy; 2023 <strong><span>07</span></strong>. Agency.All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -988,7 +669,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"  style="background-color: #000;"><i
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="background-color: #000;"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
