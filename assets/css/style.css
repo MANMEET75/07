@@ -3526,3 +3526,112 @@ display: inline-block;
   letter-spacing: 1px;
 }
 
+
+.main-center-image {
+  width: 100%;
+  height: 100%;
+  min-height: 315px;
+  position: relative;
+}
+
+#main-center-image {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .main-center-image {
+    /* Adjust styles for small devices */
+    min-height: 180px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-center-image {
+    /* Adjust styles for small devices */
+    min-height: 180px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-center-image {
+    /* Adjust styles for small devices */
+    min-height: 160px;
+  }
+}
+
+
+
+
+
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .main-center-image {
+    /* Adjust styles for medium devices */
+    min-height: 140px;
+  }
+}
+
+/* iPhones (portrait and landscape) */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  .main-center-image {
+    /* Adjust styles for iPhone 6, 6s, 7, and 8 */
+    min-height: 140px;
+  }
+}
+
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 736px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .main-center-image {
+    /* Adjust styles for iPhone 6 Plus, 6s Plus, 7 Plus, and 8 Plus */
+    min-height: 140px;
+  }
+}
+
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .main-center-image {
+    /* Adjust styles for iPhone X, XS, 11 Pro */
+    min-height: 140px;
+  }
+}
+
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 896px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  .main-center-image {
+    /* Adjust styles for iPhone XR, 11 */
+    min-height: 140px;
+  }
+}
+
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 896px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .main-center-image {
+    /* Adjust styles for iPhone XS Max, 11 Pro Max */
+    min-height: 140px;
+  }
+}
