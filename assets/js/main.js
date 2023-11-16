@@ -362,6 +362,33 @@ $(document).ready(function($) {
   }
 
 
+  function sendEmailForJob() {
+    var fullName = document.getElementById("full-name").value;
+    var contactNumber = document.getElementById("contact-number").value;
+    var currentAddress = document.getElementById("current-address").value;
+    var experience = document.getElementById("number").value;
+    var dob = document.getElementById("dob").value;
+    var email = document.getElementById("email").value;
+    var cv = document.getElementById("cv").value;
+    var currentState = document.getElementById("current-state").value;
+
+    var subject = "Job Application Submission";
+    var body = "Full Name: " + fullName + "\n" +
+               "Contact Number: " + contactNumber + "\n" +
+               "Current Address: " + currentAddress + "\n" +
+               "Years of Experience: " + experience + "\n" +
+               "Date of Birth: " + dob + "\n" +
+               "Email: " + email + "\n" +
+               "CV: " + cv + "\n" +
+               "Current State: " + currentState;
+
+    var mailtoLink = "mailto:samanmeet85@gmail.com" +
+                    "?subject=" + encodeURIComponent(subject) +
+                    "&body=" + encodeURIComponent(body);
+
+    window.location.href = mailtoLink;
+}
+
 
 
 
@@ -417,3 +444,4 @@ ScrollReveal({ reset: true });
         ScrollReveal().reveal('.events', { easing: "ease-in", delay: 200});
         ScrollReveal().reveal('.jobs', { easing: "ease-in", delay: 200});
         ScrollReveal().reveal('.register', { easing: "ease-in", delay: 200});
+

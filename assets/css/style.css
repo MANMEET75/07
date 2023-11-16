@@ -3667,7 +3667,7 @@ display: inline-block;
 }
 .three-column-images img
 {
-  margin-bottom:110px;
+  margin-bottom:120px;
   margin-top:20px;
   height:400px;
   border-radius: 10%;
@@ -3690,4 +3690,12 @@ display: inline-block;
   position: relative;
   bottom: 90px;
   margin: 24px;
+}
+
+.zoom {
+  transition: transform .4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.24); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
