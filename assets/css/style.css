@@ -3667,14 +3667,27 @@ display: inline-block;
 }
 .three-column-images img
 {
-  margin-bottom:10px;
+  margin-bottom:110px;
   margin-top:20px;
   height:400px;
   border-radius: 10%;
 }
 
-.three-column-images a
+.three-column-images .text-portfolio
 {
   font-weight:bold;
   color: #fff;
+  display: block;
+  font-size: 16px;
+  position: relative;
+  bottom: 70px;
+}
+.three-column-images .subtext-portfolio
+{
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  position: relative;
+  bottom: 90px;
+  margin: 24px;
 }
