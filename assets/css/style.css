@@ -3647,3 +3647,34 @@ display: inline-block;
 
 
 
+
+
+ /*Убираем рамку фокуса*/
+ :focus {
+  outline: none;
+}
+
+
+
+.three-column-images
+{
+  background:#000;
+}
+
+.three-column-images .row
+{
+  text-align:center;
+}
+.three-column-images img
+{
+  margin-bottom:10px;
+  margin-top:20px;
+  height:400px;
+  border-radius: 10%;
+}
+
+.three-column-images a
+{
+  font-weight:bold;
+  color: #fff;
+}
