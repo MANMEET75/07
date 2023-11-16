@@ -3636,9 +3636,14 @@ display: inline-block;
   }
 }
 
+.partnerships-images{
+  margin: 25px;
+}
 
-
-
+.clients{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 
 
 
