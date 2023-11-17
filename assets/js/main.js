@@ -396,6 +396,9 @@ $(document).ready(function($) {
 
 
 
+
+
+
   $(document).ready(function(){
     $(".on").click(function() {
         $('.alert').css({
@@ -416,6 +419,63 @@ $(document).ready(function($) {
     })
 })
 
+
+var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,5000);
+  
+}
+
+changeSlide();
+document.addEventListener("DOMContentLoaded", function () {
+  const accordionItems = document.querySelectorAll(".acc-item");
+
+  accordionItems.forEach((item) => {
+    const title = item.querySelector(".acc-item h3");
+    const content = item.querySelector(".acc-item p");
+    const chevron = item.querySelector(".acc-chevron");
+
+    title.addEventListener("click", () => {
+      const isExpanded = content.style.display === "block";
+
+      // Close all accordion items
+      accordionItems.forEach((otherItem) => {
+        if (otherItem !== item) {
+          otherItem.querySelector(".acc-item p").style.display = "none";
+          otherItem.querySelector(".acc-chevron").style.transform =
+            "rotate(180deg)";
+        }
+      });
+
+      // Toggle the clicked accordion item
+
+      content.style.display = isExpanded ? "none" : "block";
+      chevron.style.transform = isExpanded ? "rotate(180deg)" : "rotate(0deg)";
+    });
+  });
+});
 $(document).ready(function(){
     $(".on").click(function() {
         $('.alert').css({
@@ -445,3 +505,9 @@ ScrollReveal({ reset: true });
         ScrollReveal().reveal('.jobs', { easing: "ease-in", delay: 200});
         ScrollReveal().reveal('.register', { easing: "ease-in", delay: 200});
 
+
+
+        
+
+        
+        
