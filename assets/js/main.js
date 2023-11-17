@@ -449,6 +449,9 @@ function changeSlide(){
 }
 
 changeSlide();
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const accordionItems = document.querySelectorAll(".acc-item");
 

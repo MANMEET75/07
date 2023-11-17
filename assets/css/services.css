@@ -29,7 +29,7 @@ body {
   aspect-ratio: 1 / 1;
   /* max-width: 698px; */
   width: 100%;
-  max-height: 500px;
+  max-height: 550px;
   /* display: block; */
   border-radius: 5%;
 }
@@ -63,11 +63,18 @@ body {
   font: normal normal 300 18px/35px Poppins;
 }
 
+
+
 .acc-item p {
   display: none;
   margin-bottom: 36px;
   text-align: left;
   font: normal normal 300 18px/35px Poppins;
+}
+
+.acc-item span {
+    color: #fff;
+    font-weight: 700;
 }
 
 .acc-title {
