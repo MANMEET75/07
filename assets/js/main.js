@@ -479,6 +479,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
 $(document).ready(function(){
     $(".on").click(function() {
         $('.alert').css({
@@ -498,6 +500,8 @@ $(document).ready(function(){
         });
     })
 })
+
+
 
 
 
