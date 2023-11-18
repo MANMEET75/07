@@ -845,8 +845,12 @@ h6 {
 }
 
 
-
-
+.acc-chevron {
+  transform: rotate(180deg);
+  height: 450px;
+  margin-left: 20px;
+  transition: 0.2s;
+}
 
 
 
@@ -3693,3 +3697,264 @@ display: inline-block;
 .zoom:hover {
   transform: scale(1.24); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Questrial&display=swap");
+
+.acc-wrapper {
+  padding: 40px 40px;
+  width: 1680px;
+  margin: 0 auto;
+  /*   margin-top: 110px; */
+  /*   margin-bottom: 101px; */
+}
+
+.acc-header b {
+  font: normal normal normal 18px/35px Questrial;
+  color: #fff;
+}
+
+
+
+
+.acc-img {
+  /* object-fit: cover; */
+  display: block;
+  aspect-ratio: 1 / 1;
+  /* max-width: 698px; */
+  width: 38%;
+  max-height: 470px;
+  position: relative;
+  top: 50px;
+  /* display: block; */
+}
+
+.accs {
+  width: 100%;
+  max-width: 798px;
+}
+
+.acc-header-title {
+  font: normal normal normal 48px/35px Questrial;
+  margin-top: 5px;
+  margin-bottom: 23px;
+}
+
+.acc-subtitle {
+  max-width: 1327px;
+  font: normal normal 300 18px/35px Poppins;
+  margin: 0;
+}
+
+.acc-body {
+  display: flex;
+  gap: 80px;
+}
+
+.acc-content {
+  display: none;
+  margin-bottom: 36px;
+  text-align: left;
+  font: normal normal 300 18px/35px Poppins;
+}
+
+
+
+.acc-item p {
+  display: none;
+  margin-bottom: 36px;
+  text-align: left;
+  font: normal normal 300 18px/35px Poppins;
+}
+
+.acc-item span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.acc-title {
+  display: flex;
+  align-items: center;
+  font: normal normal normal 25px/35px Questrial;
+  user-select: none;
+  cursor: pointer;
+  padding: 30px 0px;
+}
+
+.acc-item h3 {
+  display: flex;
+  align-items: center;
+  font: normal normal normal 25px/35px Questrial;
+  user-select: none;
+  cursor: pointer;
+  padding: 30px 0px;
+  margin: 0;
+}
+
+.acc-item h3 span {
+  flex-grow: 1;
+}
+
+.acc-item h3:before {
+  content: url("https://svgshare.com/i/zR1.svg");
+  margin-right: 30px;
+}
+
+.acc-title span {
+  flex-grow: 1;
+}
+
+.acc-title:before {
+  content: url("https://svgshare.com/i/zR1.svg");
+  margin-right: 30px;
+}
+
+.acc-chevron {
+  transform: rotate(180deg);
+  height: 20px;
+  margin-left: 20px;
+  transition: 0.2s;
+}
+
+
+#slider{
+    margin:0 auto;
+    width:80%;
+    overflow:hidden;
+  }
+  
+  .slides{
+    overflow:hidden;
+    animation-name:fade;
+    animation-duration:1s;
+    display:none;
+  }
+  
+  
+  
+  #dot{
+    margin:0 auto;
+    text-align:center;
+  }
+  .dot{
+    display:inline-block;
+    border-radius:50%;
+    background:#d3d3d3;
+    padding:8px;
+    margin:10px 5px;
+  }
+  
+  .active{
+    background:black;
+  }
+  
+  @media (max-width:567px){
+    #slider{
+      width:100%;
+  
+    }
+  }
+  
+  #heading{
+    display:block;
+    text-align:center;
+    font-size:2em;
+    margin:10px 0px;
+  
+  }
+.acc-item {
+  transition: 1s;
+  border-bottom: 1px solid #aaa;
+  letter-spacing: 1px;
+}
+.acc-item p{
+    color: #fff;
+    letter-spacing: 1px;
+ 
+}
+
+.acc-item:last-child {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1680px) {
+  .acc-wrapper {
+    width: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .acc-body {
+    gap: 40px;
+  }
+
+  .accs {
+    min-width: calc(50% - 20px);
+  }
+
+  .acc-img {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .acc-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .accs {
+    max-width: initial;
+  }
+
+  .acc-img {
+    max-width: initial;
+    width: 100%;
+    aspect-ratio: 410/247;
+  }
+
+  .accs {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .acc-wrapper {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    margin-top: 33px;
+    margin-bottom: 154px;
+  }
+
+  .acc-body {
+    gap: 7px;
+  }
+
+  .acc-header {
+    margin-bottom: 30px;
+  }
+
+  .acc-header b {
+    display: none;
+  }
+}
+
+
+.services-subheading{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
