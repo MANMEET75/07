@@ -393,6 +393,8 @@ $(document).ready(function($) {
 
 
 
+
+
 jQuery(document).ready(function($) {
 	jQuery(document).on('click', '.iconInner', function(e) {
 		jQuery(this).parents('.botIcon').addClass('showBotSubject');
