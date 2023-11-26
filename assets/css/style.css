@@ -1244,7 +1244,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: #fff;
 }
 
 .section-title {
@@ -3732,7 +3732,7 @@ display: inline-block;
   display: block;
   aspect-ratio: 1 / 1;
   /* max-width: 698px; */
-  width: 38%;
+  width: 45%;
   max-height: 470px;
   position: relative;
   top: 50px;

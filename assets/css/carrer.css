@@ -64,6 +64,12 @@
     border: none;
     border-radius: calc(2 * var(--border-radius));
   }
+  #survey-form p{
+    padding-top: 10px;
+  }
+  #survey-form h5{
+    padding-top: 10px;
+  }
   
   #survey-form * {
     font-size: var(--font-size);
