@@ -46,19 +46,22 @@ color: inherit;
 
 .news-section {
 padding:90px 0;
+
 }
 
 .news-content {
 padding: 40px 30px;
 background-color: #fff;
+height:300px;
 }
 
 .news-item {
-box-shadow: 0 0 15px #ededed;
+/* box-shadow: 0 0 15px #ededed; */
 -webkit-transition: .5s;
 -o-transition: .5s;
 transition: .5s;
 margin-bottom: 40px;
+
 }
 
 .news-item:hover {
@@ -71,6 +74,7 @@ box-shadow: 0px 15px 15px 0px #edeaea;
 
 .newsimg img {
 width: 100%;
+
 }
 
 .news_postdate {

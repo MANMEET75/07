@@ -148,7 +148,7 @@ h6 {
   padding-top: 150px;
   background-color: #000;
   height: 550px;
-  background-image: url(../img/07BG.jpg);
+  background-image: url(../img/07BG.png);
   background-repeat: no-repeat;
   background-size:85% 160%;
   background-origin: content-box;
@@ -180,6 +180,12 @@ h6 {
   z-index: 5;
 }
 
+#survey-form{
+  color: #FAEED1;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
 
 .nav-link{
   text-align: center;
@@ -192,6 +198,10 @@ h6 {
   list-style: none;
   align-items: center;
 }
+
+/* #survey-container{
+  width: 500px;
+} */
 
 .navbar li {
   position: relative;
