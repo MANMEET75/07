@@ -182,9 +182,16 @@ h6 {
 
 #survey-form{
   color: #FAEED1;
-  margin-left: 100px;
-  margin-right: 100px;
-  
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#survey-form h5{
+  font-size: 33px;
+}
+#survey-form p{
+  font-size: 25px;
+  padding-bottom: 27px;
 }
 
 .nav-link{
@@ -4521,3 +4528,4 @@ article {
   max-width: 560px;
   margin: auto;
 }
+
