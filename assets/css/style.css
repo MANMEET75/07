@@ -181,18 +181,42 @@ h6 {
 }
 
 #survey-form{
-  color: #FAEED1;
   margin-left: 350px;
   margin-right: 350px;
 }
 
 #survey-form h5{
   font-size: 33px;
+  color: #eaeaea;
+}
+
+#survey-form h4{
+  font-size: 27px;
+  color: #d3d3d3;
 }
 #survey-form p{
   font-size: 25px;
   padding-bottom: 27px;
+  color: #757575;
 }
+
+@media screen and (max-width: 1238px) {
+  #survey-form{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 1500px) {
+  #survey-form{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+}
+
+
 
 .nav-link{
   text-align: center;
