@@ -32,7 +32,6 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-weight: 400;
-  font-family: var(--body-font);
   transition: all 0.2s ease;
 }
 
@@ -66,7 +65,7 @@ body {
   --transition: 0.5s ease-in-out;
 
   font-family: inherit;
-  height: 350px;
+  height: 400px;
   width: 300px;
   position: relative;
   display: flex;
@@ -125,6 +124,8 @@ body {
   background-color: var(--dark-color);
   transition: var(--transition);
 }
+  
+
 .card__bx .card__data .card__icon {
   color: var(--clr);
   box-shadow: 0 0 0 4px var(--dark-color), 0 0 0 6px var(--clr);
