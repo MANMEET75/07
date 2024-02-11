@@ -3719,7 +3719,7 @@ display: inline-block;
   font-weight:bold;
   color: #fff;
   display: block;
-  font-size: 16px;
+  font-size: 25px;
   position: relative;
   bottom: 70px;
 }
@@ -3727,18 +3727,19 @@ display: inline-block;
 {
   color: #fff;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   position: relative;
   bottom: 90px;
   margin: 24px;
 }
 
 .zoom {
-  transition: transform .4s; /* Animation */
+  transition: transform .5s; /* Animation */
 }
 
 .zoom:hover {
-  transform: scale(1.24); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); 
+  border: 5px solid #fff;
 }
 
 
