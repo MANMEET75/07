@@ -5,6 +5,10 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+
+
 (function() {
   "use strict";
 
@@ -362,6 +366,8 @@ $(document).ready(function($) {
   }
 
 
+ 
+
   function sendEmailForJob() {
     var fullName = document.getElementById("full-name").value;
     var contactNumber = document.getElementById("contact-number").value;
@@ -389,6 +395,28 @@ $(document).ready(function($) {
     window.location.href = mailtoLink;
 }
 
+const lightbox = GLightbox({
+  touchNavigation: true,
+  loop: true,
+  width: "90vw",
+  height: "90vh"
+});
+
+(function($){
+	'use strict';
+	$(document).ready(function(){
+		$('.active-slider').owlCarousel({
+			items: 1,
+			loop: true,
+			nav: true,
+      //animation
+      animateOut: 'fadeOut',
+      autoplay: true,
+  //icon for nav
+			navText: ['<h1> < </h1>', '<h1> > </h1>']
+		});
+	});
+})(jQuery);
 
 
 $('img[data-enlargable]').addClass('img-enlargable').click(function(){
