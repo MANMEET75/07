@@ -4815,3 +4815,9 @@ video{
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   color: #000;
 }
+
+.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus{
+  background-color: #000;
+  color: #fff;
+  width: 40%;
+}
