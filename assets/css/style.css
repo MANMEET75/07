@@ -2,6 +2,7 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
+
 @color-card-background: #2d3638;
 @color-tag-background: #191e20;
 @color-anchor: #e37544;
@@ -245,6 +246,7 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  margin: 5px;
 }
 
 
