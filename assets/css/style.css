@@ -388,7 +388,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: #000;
   transition: 0.3s;
   z-index: 999;
 }
@@ -4803,5 +4803,15 @@ video{
 }
 
 
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
+  color: #000;
+  background-color: #fff;
+}
 
+.navbar-mobile a, .navbar-mobile a:focus{
+  color: #000;
+}
 
+.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+  color: #000;
+}
