@@ -218,11 +218,6 @@ h6 {
 }
 
 
-
-.nav-link{
-  text-align: center;
-  margin:8px;
-}
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -273,13 +268,18 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  padding: 8px 20px;
+  padding: 8px 20px; 
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
   border: 2px solid #fff;
   font-weight: 600;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+
 }
 
 .navbar .getstarted:hover,
@@ -3725,7 +3725,7 @@ display: inline-block;
 }
 .three-column-images .subtext-portfolio
 {
-  color: #fff;
+  color: #8b8b8b;
   display: block;
   font-size: 14px;
   position: relative;
@@ -4810,14 +4810,43 @@ video{
 
 .navbar-mobile a, .navbar-mobile a:focus{
   color: #000;
+  /* border-bottom: 1px solid #e7e7e7; */
+  width: 100%;
+
+  padding-top: 25px;
+  /* padding-left: 30px; */
 }
 
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   color: #000;
+  
 }
 
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus{
-  background-color: #000;
-  color: #fff;
-  width: 40%;
+  position: relative;
+  /* right: 10px; */
+  font-weight: 500;
+  /* border-bottom: 1px solid #e7e7e7; */
+  border-radius: 0;
+  /* padding-left: 30px; */
+  line-height: 3rem;
+  margin: -20px;
+  width: 100%;
+  top: 10px;
+  font-size: 15px;
+  color: #4c7dd6;
+  padding-top: 25px;
+  
+  /* position: relative;
+  left: 24px; */
 }
+
+.navbar-mobile a, .navbar-mobile a:focus{
+  padding-left: 2px;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+  left: 24px;
+  width: 89%;
+}
+
+
